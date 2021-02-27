@@ -1,3 +1,6 @@
 body {
     text-align: center;
 }
+#page3 .container .row p{
+    display: none;
+}
