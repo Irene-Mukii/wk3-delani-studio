@@ -4,3 +4,9 @@ body {
 #page3 .container .row p{
     display: none;
 }
+form input{
+    width: 100%;
+}
+#message{
+    height: 300px;
+}
