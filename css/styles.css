@@ -10,3 +10,12 @@ form input{
 #message{
     height: 300px;
 }
+#page1{
+    background-image: image();
+}
+#services{
+    background-image: image();
+}
+#page4{
+    background-image: image();
+}
