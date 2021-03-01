@@ -12,6 +12,8 @@ form input{
 form{
     background-color: transparent;
     border: medium white;
+    color: white;
+    opacity: 0.3;
 }
 #page1{
     background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/h_img.jpg'); 
@@ -35,8 +37,14 @@ form{
    height: 488px;
    padding: 10%;
 }
-#page3 img{
-    margin: 10px;
+#portfolio{
+    margin-bottom: 100px;
+}
+#portfolio h4{
+    color: tomato;
+    border: solid red 2px;
+    padding: 20px;
+    margin: 5px;
 }
 #page4{
     background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/c_image.jpg');

@@ -16,9 +16,9 @@ $(document).ready(function(){
     })
     $(document).ready(function(){
         $("#img8").hover(function(){
-            $(this).find('title').fadeIn(300);
+            $(this).find('#title').fadeIn(300);
         }, function() {
-            $(this).find('title').fadeOut(100);
+            $(this).find('#title').fadeOut(100);
         });
       });
 })
