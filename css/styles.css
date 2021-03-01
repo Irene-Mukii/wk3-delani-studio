@@ -6,16 +6,38 @@ body {
 }
 form input{
     width: 100%;
+    background-size: cover;
 }
-#message{
-    height: 300px;
+
+form{
+    background: transparent;
+    border: medium white;
 }
 #page1{
-    background-image: image();
+    background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/h_img.jpg'); 
+    background-repeat: no-repeat;
+    height: 1071px;
+    color: white;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #services{
-    background-image: image();
+   background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/s_image.jpg');
+   color: white;
+   height: 488px;
+}
+#page3 img{
+    margin: 10px;
 }
 #page4{
-    background-image: image();
+    background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/c_image.jpg');
+    color: white;
+    height: 683px;
+}
+#message{
+    height: 500px;
 }

@@ -1,14 +1,16 @@
 $(document).ready(function(){
-    //let whatWeDo = ['design', 'development', 'product']
     $(".clickable-design").click(function(){
+        $("#design-img").toggle();
         $("#design-showing").toggle();
         $("#design-hidden").toggle();
     })
     $(".clickable-development").click(function(){
+        $("#dev-img").toggle();
         $("#development-showing").toggle();
         $("#development-hidden").toggle();
     })
     $(".clickable-product").click(function(){
+        $("#prod-img").toggle();
         $("#product-showing").toggle();
         $("#product-hidden").toggle();
     })
