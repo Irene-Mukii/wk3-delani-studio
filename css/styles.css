@@ -31,7 +31,7 @@ form{
     padding: 5%;
 }
 #services{
-   background-image: url('images/s_image.jpg');
+   background-image: url('../images/s_image.jpg');
    background-repeat: no-repeat;
    color: white;
    height: 488px;
