@@ -22,3 +22,7 @@ $(document).ready(function(){
         });
       });
 })
+function getInput(event){
+    event.preventDefault()
+    alert('THANK YOU FOR CONTACTING US, WE WILL GET BACK TO YOU SHORTLY');
+};

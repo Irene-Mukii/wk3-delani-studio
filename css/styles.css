@@ -10,10 +10,8 @@ form input{
 }
 
 form{
-    background-color: transparent;
+    background: transparent;
     border: medium white;
-    color: white;
-    opacity: 0.3;
 }
 #page1{
     background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/h_img.jpg'); 
@@ -48,8 +46,9 @@ form{
 }
 #page4{
     background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/c_image.jpg');
-    color: white;
+    
     height: 683px;
+    background-color: rgba(0,0,0,0.7);
 }
 .hover-img div{
     border: 3px;
