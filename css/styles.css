@@ -41,10 +41,9 @@ form{
     margin: 70px;
 }
 #portfolio h4{
-    color: tomato;
-    border: solid red 2px;
+    color:white;
+    border: solid white 3px;
     padding: 20px;
-    margin: 5px;
 }
 #portfolio img{
     margin: 10px;
