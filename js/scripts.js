@@ -22,7 +22,15 @@ $(document).ready(function(){
         });
       });
 })
-function getInput(event){
-    event.preventDefault()
-    alert('THANK YOU FOR CONTACTING US, WE WILL GET BACK TO YOU SHORTLY');
+function submission(event){
+    
+    let name=$('NAME').val();
+    let email=$('EMAIL').val();
+    let message=$('MESSAGE').val();
+
+    if (name==='' || email===''||message===''){
+        alert('ERROR!PLEASE CHECK YOUR INFORMATION')
+    }else{
+        alert('THANK YOU FOR REACHING OUT. WE WILL GET BACK TO YOU SOON!');
+    }  
 };
