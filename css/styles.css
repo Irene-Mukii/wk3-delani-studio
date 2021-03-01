@@ -25,10 +25,15 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#about-us{
+    padding: 5%;
+}
 #services{
    background-image: url('/home/rennie_quin/Documents/moringa-school-projects/wk3-delani-studio/images/s_image.jpg');
+   background-repeat: no-repeat;
    color: white;
    height: 488px;
+   padding: 10%;
 }
 #page3 img{
     margin: 10px;
