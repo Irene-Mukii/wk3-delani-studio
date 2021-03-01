@@ -14,4 +14,11 @@ $(document).ready(function(){
         $("#product-showing").toggle();
         $("#product-hidden").toggle();
     })
+    $(document).ready(function(){
+        $("#img8").hover(function(){
+            $(this).find('title').fadeIn(300);
+        }, function() {
+            $(this).find('title').fadeOut(100);
+        });
+      });
 })

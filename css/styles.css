@@ -10,7 +10,7 @@ form input{
 }
 
 form{
-    background: transparent;
+    background-color: transparent;
     border: medium white;
 }
 #page1{
@@ -43,9 +43,18 @@ form{
     color: white;
     height: 683px;
 }
+.hover-img div{
+    border: 3px;
+    padding: 5px;
+    margin: 10px;
+}
 #message{
     height: 500px;
 }
 footer{
     margin: 20px;
 }
+.mouse-img{
+    transform: translateY(1000%); 
+}
+
