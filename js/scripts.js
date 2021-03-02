@@ -22,13 +22,15 @@ $(document).ready(function(){
 });
 function submission(event){
     
-    let name=$('NAME').val();
-    let email=$('EMAIL').val();
-    let message=$('MESSAGE').val();
-
+    let name=document.getElementsByName('FNAME').values;
+    let email=document.getElementsByName('EMAIL').values;
+    let message=document.getElementsByName('MESSAGE').values;
+    console.log(name,email,message);
     if (name==='' || email===''||message===''){
         alert('ERROR!PLEASE CHECK YOUR INFORMATION')
+        document.getElementById("mc-embedded-subscribe-form").reset();
     }else{
         alert('THANK YOU FOR REACHING OUT. WE WILL GET BACK TO YOU SOON!');
+        document.getElementById("mc-embedded-subscribe-form").reset();
     }  
 };
