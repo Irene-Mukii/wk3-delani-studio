@@ -15,9 +15,9 @@ $(document).ready(function(){
         $("#product-hidden").toggle();
     })
     $(".img").hover(function(){
-        $('.title',this).slideToggle(300)
+        $('.title',this).show(300)
      }, function(){
-     $('.title',this).slideToggle(100);
+     $('.title',this).hide(100);
      });
 });
 function submission(event){

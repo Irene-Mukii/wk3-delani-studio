@@ -41,11 +41,15 @@ form{
 #portfolio{
     margin: 70px;
 }
-#portfolio h4{
+#portfolio .title{
     color:white;
     border: solid white 3px;
     padding: 20px;
+    display: none;
 }
+.img :hover .title{
+    display: block;
+} 
 #portfolio img{
     margin: 10px;
 }
