@@ -5,7 +5,7 @@
 #
 ## HERES A PREVIEW OF WHAT THE APPLICATION LOOKS LIKE 
 
-[Click here to generate your Akan Name](https://irene-mukii.github.io/wk3-delani-studio/)
+[Click here ](https://irene-mukii.github.io/wk3-delani-studio/)
 
 
 #
