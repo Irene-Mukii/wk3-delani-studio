@@ -34,6 +34,11 @@ This application has been implemented using the following languages
 * CSS 
 * JavaScript
 #
+## Dependancies
+* jQuery ~>' 3.5.1'
+* Bootstrap ~>'4.5.2'
+* Google Fonts
+#
 ## Support and contact details
 If you have any concerns please reach outthrough the following platforms
 * EMAIL: abc@gmail.com 
